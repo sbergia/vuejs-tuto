@@ -8,7 +8,7 @@
 </template>
 
 <script>
-  import citizens from './pages/chap7/CitizenPage.vue'
+  import citizens from './pages/chap8/CitizenPage.vue'
 
   export default {
     name: 'app',

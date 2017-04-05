@@ -35,7 +35,8 @@ let store = new Vuex.Store({
   state: state,
   mutations: mutations,
   getters: getters,
-  actions: actions
+  actions: actions,
+  strict: true
 })
 
 export default store
