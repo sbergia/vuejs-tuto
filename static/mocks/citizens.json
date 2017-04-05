@@ -1,0 +1,54 @@
+{
+  "citizens": [
+    {
+      "id": 1,
+      "firstname": "Homer",
+      "lastname": "Simpson",
+      "age": "43"
+    },
+    {
+      "id": 2,
+      "firstname": "Marge",
+      "lastname": "Simpson",
+      "age": "41"
+    },
+    {
+      "id": 3,
+      "firstname": "Bart",
+      "lastname": "Simpson",
+      "age": "12"
+    }
+  ],
+  "details": [
+    {
+      "id": "1",
+      "citizenId": "1",
+      "firstname": "Homer",
+      "lastname": "Simpson",
+      "age": "43",
+      "birthdate": "16/03/1953",
+      "mail": "homer.simpson@caramail.com",
+      "phone": "0123456789"
+    },
+    {
+      "id": 2,
+      "citizenId": "2",
+      "firstname": "Marge",
+      "lastname": "Simpson",
+      "age": "41",
+      "birthdate": "18/07/1955",
+      "mail": "marge.simpson@caramail.com",
+      "phone": "0123456789"
+    },
+    {
+      "id": 3,
+      "citizenId": "3",
+      "firstname": "Bart",
+      "lastname": "Simpson",
+      "age": "12",
+      "birthdate": "16/01/2005",
+      "mail": "bart.simpson@caramail.com",
+      "phone": "0123456789"
+    }
+  ]
+}
