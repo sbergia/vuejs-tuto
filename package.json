@@ -2,7 +2,7 @@
   "name": "vuejs-tuto",
   "version": "1.0.0",
   "description": "Tutoriel pour Vuejs",
-  "author": "Ippon Tech",
+  "author": "Ippon Technologies",
   "private": true,
   "scripts": {
     "dev": "node build/dev-server.js",
