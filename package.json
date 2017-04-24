@@ -2,7 +2,7 @@
   "name": "vuejs-tuto",
   "version": "1.0.0",
   "description": "Tutoriel pour Vuejs",
-  "author": "Casden - DSU",
+  "author": "Ippon",
   "private": true,
   "scripts": {
     "dev": "node build/dev-server.js",
