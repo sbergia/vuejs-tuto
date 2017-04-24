@@ -2,18 +2,18 @@
   <div id="app">
     <!--
     hello firstname="Marge" lastname="Simpson" from="New York" img="/static/marge.png"></hello-->
-    <!--img src="./assets/logo.png"-->
-    <citizens></citizens>
+    <img src="./assets/logo.png">
+    <hello></hello>
   </div>
 </template>
 
 <script>
-  import citizens from './pages/chap8/CitizenPage.vue'
+  import hello from './components/chap1/Hello.vue'
 
   export default {
     name: 'app',
     components: {
-      citizens
+      hello
     }
   }
 </script>
