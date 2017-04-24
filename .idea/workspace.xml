@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ea094952-662f-4027-bc50-30674d865c9a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App.vue" afterPath="$PROJECT_DIR$/src/App.vue" />
     </list>
     <ignored path="vuejs-tuto.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -297,7 +296,7 @@
       <workItem from="1491409946806" duration="1837000" />
       <workItem from="1491412191956" duration="10062000" />
       <workItem from="1491815349267" duration="506000" />
-      <workItem from="1493039137063" duration="432000" />
+      <workItem from="1493039137063" duration="492000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1491410508104</created>
@@ -341,11 +340,18 @@
       <option name="project" value="LOCAL" />
       <updated>1493039327530</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Updated to play with the first tuto">
+      <created>1493039647952</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1493039647952</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12837000" />
+    <option name="totallyTimeSpent" value="12897000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
@@ -386,7 +392,8 @@
     <MESSAGE value="Ajout du mode strict" />
     <MESSAGE value="First commit" />
     <MESSAGE value="Maj author" />
-    <option name="LAST_COMMIT_MESSAGE" value="Maj author" />
+    <MESSAGE value="Updated to play with the first tuto" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated to play with the first tuto" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
