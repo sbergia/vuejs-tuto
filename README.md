@@ -25,5 +25,5 @@ For detailed explanation on how things work, checkout the [guide](http://vuejs-t
 # install mock server
 npm install -g json-server
 
-#trigger mock server
+# trigger mock server
 json-server --watch static\mocks\citizens.json

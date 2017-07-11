@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 
 Vue.use(VueRouter)
 
+
 let router = new VueRouter({
     mode: 'history', //History HTML 5 API
     routes: [
