@@ -28,7 +28,7 @@
     beforeRouteEnter(to, from, next) {
       console.log('>>> (Hello.beforeRouteEnter) Render the component Hello.vue')
       next(vm => {
-        console.log('>>> (Hello.beforeRouteEnter) Manage callback ')
+        console.log('>>> (Hello.beforeRouteEnter) Manage callback')
       })
     },
     beforeRouteUpdate(to, from, next) {
