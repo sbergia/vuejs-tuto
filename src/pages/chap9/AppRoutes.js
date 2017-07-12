@@ -27,7 +27,7 @@ let router = new VueRouter({
         name: 'pagechap9',
         props: true,
         beforeEnter: (to, from, next) => {
-          console.log('>>> (beforeEnter) route pagechap9')
+          console.log('>>> (beforeEnter) route pagechap9 ')
           next()
         }
       },
