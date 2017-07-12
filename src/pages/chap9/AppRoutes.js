@@ -18,9 +18,12 @@ let router = new VueRouter({
         name: 'pagechap2'
       },
       {
+        /*
+        path: '/vuejs-tuto/chap9',
+        component: require('../../components/chap9/Hello.vue'),
+         */
         path: '/vuejs-tuto/chap9/:id',
         component: r => require.ensure([], () => r(require('../../components/chap9/Hello.vue'))),
-        //component: require('../../components/chap9/Hello.vue'),
         name: 'pagechap9',
         props: true,
         beforeEnter: (to, from, next) => {

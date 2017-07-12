@@ -28,7 +28,9 @@
     },
     beforeRouteEnter(to, from, next) {
       console.log('>>> (Hello.beforeRouteEnter) Render the component Hello.vue')
-      next()
+      next(vm => {
+        console.log('>>> (Hello.beforeRouteEnter) Manage callback')
+      })
     },
     beforeRouteUpdate(to, from, next) {
       console.log('>>> (Hello.beforeRouteUpdate) The route parameters have been updated. Now id = '+this.id)
