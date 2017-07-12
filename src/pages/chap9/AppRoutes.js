@@ -22,7 +22,11 @@ let router = new VueRouter({
         component: r => require.ensure([], () => r(require('../../components/chap9/Hello.vue'))),
         //component: require('../../components/chap9/Hello.vue'),
         name: 'pagechap9',
-        props: true
+        props: true,
+        beforeEnter: (to, from, next) => {
+          console.log('>>> (beforeEnter) route pagechap9')
+          next()
+        }
       },
       {
         path: '*', //si on utilise une route qui n'est pas mappée, on est redirigée vers /
@@ -31,5 +35,14 @@ let router = new VueRouter({
     ]
   }
 )
+
+router.beforeEach((to, from, next) => {
+  console.log('>>> (beforeEach) Navigating from '+from.path+' to '+to.path)
+  next()
+})
+
+router.afterEach((to, from) => {
+  console.log('>>> (afterEach) Navigating from '+from.path+' to '+to.path)
+})
 
 export default router

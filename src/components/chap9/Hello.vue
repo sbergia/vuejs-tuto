@@ -25,6 +25,20 @@
       /*
       this.id = this.$route.params.id
        */
+    },
+    beforeRouteEnter(to, from, next) {
+      console.log('>>> (Hello.beforeRouteEnter) Render the component Hello.vue')
+      next()
+    },
+    beforeRouteUpdate(to, from, next) {
+      console.log('>>> (Hello.beforeRouteUpdate) The route parameters have been updated. Now id = '+this.id)
+      this.lastname = to.query.lastname
+      this.firstname = to.query.firstname
+      next()
+    },
+    beforeRouteLeave(to, from, next) {
+      console.log('>>> (Hello.beforeRouteLeave) Leaving the route '+from.path)
+      next()
     }
   }
 
