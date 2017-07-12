@@ -6,11 +6,15 @@ Vue.use(Vuex)
 
 import store from  './components/chap8/AppStore'
 
-window.bus = new Vue()
+import router from './pages/chap9/AppRoutes'
 
+
+
+window.bus = new Vue()
 
 new Vue({
   el: '#app',
   store,
+  router,
   render: h => h(App)
 })

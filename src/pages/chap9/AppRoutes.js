@@ -35,6 +35,7 @@ let router = new VueRouter({
         path: '*', //si on utilise une route qui n'est pas mappée, on est redirigée vers /
         redirect: '/vuejs-tuto/chap1'
       }
+
     ]
   }
 )
