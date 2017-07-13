@@ -27,3 +27,4 @@ npm install -g json-server
 
 # trigger mock server
 json-server --watch static\mocks\citizens.json
+

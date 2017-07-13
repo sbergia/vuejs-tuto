@@ -8,8 +8,6 @@ import store from  './components/chap8/AppStore'
 
 import router from './pages/chap9/AppRoutes'
 
-
-
 window.bus = new Vue()
 
 new Vue({
