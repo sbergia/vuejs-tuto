@@ -15,6 +15,6 @@ window.bus = new Vue()
 new Vue({
   el: '#app',
   store,
-  router,
+  router, //chap9
   render: h => h(App)
 })
